@@ -1,4 +1,4 @@
-#Автоматическая авторизация в Telegram Web 
+**Автоматическая авторизация в Telegram Web**
 
 ![work.](https://github.com/meKryztal/telegramweb/assets/47853767/5af228f0-233e-41d7-a958-fd5cb8d7a7a1)
 
