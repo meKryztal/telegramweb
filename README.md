@@ -1,7 +1,7 @@
 Автоматическая авторизация в Telegram Web 
 ![Demo]([https://raw.githubusercontent.com/your-username/your-repo-name/path/to/Sr0Zr.gif](https://github.com/meKryztal/telegramweb/blob/main/Work.gif))
 
-https://gifyu.com/image/Sr0Zr
+
 
 Вид прокси: user:pass@ip:port
 
