@@ -206,13 +206,6 @@ async def main(session_file):
         driver.get(
             "https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3DWaterCoinCISBot%26start%3D6922127089")
 
-        start_button_two = WebDriverWait(driver, 20).until(
-            EC.element_to_be_clickable(
-                (By.XPATH, '//*[@id="column-center"]/div[1]/div/div[4]/div/div[4]/button[1]'))
-        )
-        start_button_two.click()
-
-
         try:
             await client.disconnect()
             print(f"Вышел из сессии")
