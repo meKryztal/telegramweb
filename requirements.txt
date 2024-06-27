@@ -1,0 +1,10 @@
+asyncio
+telethon
+selenium
+requests
+colorama
+pysocks
+python-socks
+async_timeout
+
+
