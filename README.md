@@ -4,7 +4,8 @@
 
 
 
-Вид прокси: user:pass@ip:port
+Вид прокси: user:pass@ip:port 
+user и pass добжны быть цельными пример:AABBDDCC, такой вид не подойдет: AABB.CC-DDD
 
 Ставит ник если его нету, ники без @, пример: SilverFox123Aq
 
