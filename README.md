@@ -1,5 +1,5 @@
 Автоматическая авторизация в Telegram Web 
-![Demo]([https://raw.githubusercontent.com/meKryztal/telegramweb/blob/main/Work.gif)
+![Demo](https://raw.githubusercontent.com/meKryztal/telegramweb/main/Work.gif)
 
 
 
