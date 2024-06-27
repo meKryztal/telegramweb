@@ -202,7 +202,7 @@ async def main(session_file):
                     print(f"{Fore.LIGHTYELLOW_EX}Error during code input: {e}")
 
         await code_received.wait()
-
+#Ваша ссылка с рефкой
         driver.get(
             "https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3DWaterCoinCISBot%26start%3D6922127089")
 
