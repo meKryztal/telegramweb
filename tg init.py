@@ -218,12 +218,10 @@ async def main(session_file):
         with open('proxy.txt', 'r') as proxy_file:
             lines = proxy_file.readlines()
 
-        proxy_to_remove = f"{PROXY_USER}:{PROXY_PASS}@{PROXY_HOST}:{PROXY_PORT}\n"
-
-        if proxy_to_remove in lines:
-            lines.remove(proxy_to_remove)
+        proxy_to_remove = f"{PROXY_USER}:{PROXY_PASS}@{PROXY_HOST}:{PROXY_PORT}\n"  
 
         with open('proxy.txt', 'w') as proxy_file:
+            lines = [line for line in lines if line.strip() != proxy_to_remove.strip()]
             proxy_file.writelines(lines)
         time.sleep(5)
     finally:
