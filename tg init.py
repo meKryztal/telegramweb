@@ -17,14 +17,14 @@ from selenium import webdriver
 import socks
 from colorama import *
 
-api_id = '22579982'
-api_hash = '2825cfd9be7a2b620e1753fa646cd3d6'
+api_id = 'апи' # ваши апи телеграма
+api_hash = 'апи'
 
 with open('proxy.txt', 'r') as proxy_file:
     proxy_data = proxy_file.read().strip()
 
 
-match = re.match(r'(\w+):(\w+)@([\d\.]+):(\d+)', proxy_data)
+match = re.match(r'(.+):(.+)@([\d\.]+):(\d+)', proxy_data)
 if match:
     PROXY_USER = match.group(1)
     PROXY_PASS = match.group(2)
